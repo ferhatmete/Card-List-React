@@ -1,0 +1,7 @@
+.user-list {
+  display: flex;
+}
+
+.user-list > ul > li {
+  list-style: none;
+}

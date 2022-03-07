@@ -1,0 +1,30 @@
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-image: linear-gradient(120deg, #302b31 0%, #754c40 100%);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: rgb(255, 253, 253);
+}
+
+.user__image {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user__info > h2 {
+  margin-bottom: 5px;
+}
+
+.user__info > p {
+  margin-bottom: 5px;
+}
